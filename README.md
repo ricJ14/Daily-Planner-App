@@ -22,6 +22,8 @@ Save the event in local storage when the save button is clicked in that timebloc
 
 Persist events between refreshes of a page.
 
+Deployed application: https://ricj14.github.io/Daily-Planner-App/
+
 ### Mock-up
 
 ![demo](assets/images/05-third-party-apis-homework-demo.gif)
