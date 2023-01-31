@@ -26,11 +26,6 @@ $(document).ready(function (){
     
     function hourUpdate(){
         let currentHour = moment().hours();
-
-        // $(".time-block").each(function(){
-        //     let blockHour = parseInt($(this).attr("id").split("-")[1]);
-        //     alert(blockHour);
-        // })
  
         for(let i = 0; i < $(".time-block").length; i++){
             let hour = parseInt($(".time-block")[i].getAttribute("id").split("-")[1])
