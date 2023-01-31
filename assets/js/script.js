@@ -18,7 +18,26 @@ $(document).ready(function (){
         setTimeout(function(){
             $(".notification").removeClass("show");
         }, 5000)
+
+
+
     })
+
+    
+    function hourUpdate(){
+        let currentHour = moment().hours();
+
+        $(".time-block").each(function(){
+            let blockHour = parseInt($(this).attr("id").split("-")[1]);
+            alert(blockHour);
+        })
+
+
+    }
+
+
+    hourUpdate();
+
 
 
 })
